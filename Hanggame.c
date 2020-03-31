@@ -37,12 +37,13 @@ int main() {
     printf("\n\n¡Bienvenido al ahorcado! \n");
     printf("Tienes solo %d vidas. \n", num_lives);
     //Game description
-    printf("\n OJO: LA TEMATICA ES REGGAETON. \n");	
+    printf("\n OJO: LA TEMATICA ES CANCIONES DE REGGAETON. \n");
+	printf("\n Lista: \n< callaita, tusa, secreto, vete, amanece, indeciso.>\n");	
 	
     //Game loop	
 	while ( num_correct < length_word ) {
 	
-		printf("\n\nNuevo turno.\nPalabra: \n");
+		printf("\n\nNuevo turno.\nCanción: \n");
 	
 		for( loop_index = 0; loop_index < length_word; loop_index++) {
 		
